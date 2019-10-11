@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "ScaleCosmosTagHelper demo";
+}
+
+@section styles
+{
+    <style>
+        .container {
+            background-color: lightgray;
+            position: relative;
+            height: 20vw;
+            width: 20vw;
+        }
+
+        div[data-sc-fluid-container] {
+            background-color: #000000;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        div[data-sc-object] {
+            border-radius: 50%;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+}
+
+<div class="container" sc-container height="900000 mi" width="900000 mi">
+    <div class="yellow" sc-object width="864340 mi" height="864340 mi"></div>
+    <div class="blue" sc-object width="7917.5 mi" height="7917.5 mi"></div>
+</div>
