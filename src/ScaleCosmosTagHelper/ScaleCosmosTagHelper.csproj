@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Description>Allows using real-word measurements to achieve relational comparisons of objects via CSS.</Description>
+        <Authors>Bill Boga</Authors>
+        <PackageId>ScaleCosmosTagHelper</PackageId>
+        <PackageTags>razor;ui;taghelper</PackageTags>
+        <PackageProjectUrl>https://github.com/billbogaiv/scale-cosmos-tag-helper/</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/billbogaiv/scale-cosmos-tag-helper/master/LICENSE</PackageLicenseUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.1.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Razor" Version="2.2.0" />
+        <PackageReference Include="Translator" Version="0.3.0" />
+    </ItemGroup>
+
+</Project>
