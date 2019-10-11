@@ -27,7 +27,7 @@ Here's an example of the HTML and what it looks like when rendered. The yellow-c
 
 ## How does it work?
 
-This library uses [Translator](https://github.com/billbogaiv/translator) for unit-conversions, but the conversions are defined within this library. The tag with the `sc-container`-attribute is used to define the overall sizizng of the digtial "cosmos"/container. All tags with `sc-object` inside the container are then sized relative to the container. Lastly, an additional wrapper-tag is injected inside the container This wrapper is sized to keep the aspect-ratio based on the container's dimensions. This has some implications on UI-design...
+This library uses [Translator](https://github.com/billbogaiv/translator) for unit-conversions, but the conversions are defined within this library. The tag with the `sc-container`-attribute is used to define the overall sizing of the digtial "cosmos"/container. All tags with `sc-object` inside the container are then sized relative to the container. Lastly, an additional wrapper-tag is injected inside the container This wrapper is sized to keep the aspect-ratio based on the container's real-world dimensions. This has some implications on UI-design...
 
 ### CSS and aspect-ratio
 
